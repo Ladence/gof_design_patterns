@@ -1,5 +1,8 @@
 package ru.ladence.patterns.creational.factorymethod;
 
+/**
+ * Concrete product type 1
+ */
 class ElfWeapon implements Weapon {
     private WeaponType type;
 
