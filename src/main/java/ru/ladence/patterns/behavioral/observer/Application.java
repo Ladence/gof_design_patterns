@@ -1,5 +1,7 @@
 package ru.ladence.patterns.behavioral.observer;
 
+import org.apache.log4j.PropertyConfigurator;
+
 /**
  *
  * The Observer pattern is a software design pattern in which an object, called the subject,
@@ -11,6 +13,8 @@ package ru.ladence.patterns.behavioral.observer;
  */
 class Application {
     public static void main(String[] args) {
+        String log4jConfPath = "./src/main/resources/log4j.properties";
+        PropertyConfigurator.configure(log4jConfPath);
         Warlord warlord = new Warlord();
 
         Private privateSoldier = new Private();

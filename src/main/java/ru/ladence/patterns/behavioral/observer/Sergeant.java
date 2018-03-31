@@ -1,7 +1,6 @@
 package ru.ladence.patterns.behavioral.observer;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
 
 class Sergeant implements ArmyObserver {
     private static final Logger logger = Logger.getLogger(Sergeant.class);
