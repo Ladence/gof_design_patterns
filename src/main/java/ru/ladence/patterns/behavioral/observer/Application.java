@@ -22,7 +22,6 @@ class Application {
 
         warlord.addObserver(privateSoldier);
         warlord.addObserver(sergeantSoldier);
-
         warlord.updateCommand(ArmyActionsEnum.COMBAT_TRAINING);
     }
 }
